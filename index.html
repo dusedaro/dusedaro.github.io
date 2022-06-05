@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BY MADA has moved...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="ddstyles.css">
+</head>
+<body>
+  <header class="container">
+    <section class="content">
+      <h3><strong>BY MADA</strong> is now</h3><br>
+	  <img src="images/dd_logo_light.png"><br><br>
+	  <p>Redirecting to <strong>duše daro</strong> after <span id="countdown"><strong>8</strong></span> seconds</p>
+	  <script type="text/javascript">
+	    var seconds = 8;
+		function countdown() {
+			seconds = seconds - 1;
+			if (seconds < 0) {
+			    window.location = "https://dusedaro.com.au";
+			} else {
+			    document.getElementById("countdown").innerHTML = seconds;
+				window.setTimeout("countdown()", 1000);
+			}
+		}
+		countdown();
+	  </script>
+    </section>
+  </header>
+</body>
+</html>
