@@ -1,0 +1,105 @@
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+html, body, .container {
+  height: 100%;
+}
+
+body { 
+  font: 18px/23px "Cantarell", sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  color: #efecec;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+strong {
+  font-weight: 700;
+}
+.inner {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+.container {
+  display: table;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Special */
+.sub-title {
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 340px) {
+  
+  .container {
+    position: relative;
+    display: block;
+    float: left;
+    vertical-align: baseline;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+  }
+  
+  body h1 {
+    font-size: 18px;
+    line-height: 23px;
+  } 
+  
+  .content, blockquote {  
+    display: inline;
+    margin: 0 auto;
+    padding-top: 80px;
+    vertical-align: baseline;
+  }
+
+  .sub-title {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  html, body, .container {
+    height: auto;
+  }
+}
+body {
+  background-image: url(images/dd_frbr.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(images/dd_frbr_mob.jpg);
+  }
+}
