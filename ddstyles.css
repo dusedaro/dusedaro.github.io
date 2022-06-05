@@ -91,7 +91,7 @@ strong {
   }
 }
 body {
-  background-image: url(images/dd_frbr.jpg);
+  background-image: url(dd_frbr.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -100,6 +100,6 @@ body {
 }
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url(images/dd_frbr_mob.jpg);
+    background-image: url(dd_frbr_mob.jpg);
   }
 }
